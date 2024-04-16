@@ -3,7 +3,7 @@ import re
 import json
 import chardet
 
-target_folder = '/home/kali/Desktop/conansearch_test/lib/'
+target_folder = './conansearch_test/lib/'
 
 # 检查是否存在 CMakeLists.txt 中的 $，如果存在，则执行 cmake 命令
 for root, dirs, files in os.walk(target_folder):
