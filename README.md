@@ -14,11 +14,13 @@ downloadlib.py
 
 舊檔:libFinal.py
 
+
 buildCMake.py
 
 功能:執行cmake ..
 
 檢查CMakeLists.txt當中如果有$(變數名稱)，則執行cmake ..，將執行結果檔案放置新建的buildCMake資料夾中，其中會產生link.txt
+
 
 extract.py
 
@@ -27,6 +29,7 @@ extract.py
 
 找尋CMakeLists.txt中的add_library(_____________)的line，濾掉______中包含INTERFACE、ALIAS、$的關鍵字，提取()中第一個空白前的關鍵字。
 舊檔:searchMFinal.py
+
 
 次要
 
